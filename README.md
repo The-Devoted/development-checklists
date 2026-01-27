@@ -4,8 +4,8 @@ Checklists for common development phases for Devoted websites, including startup
 
 ## Phases
 
-0. [Technical Discovery & Research]()
-1. [Startup / Development Kickoff]()
+0. [Technical Discovery & Research](0-discovery.md)
+1. [Startup / Development Kickoff](1-startup.md)
 2. [Milestone / Release Planning]()
 3. Site Development
 4. QA, Migration, and Review
@@ -14,5 +14,5 @@ Checklists for common development phases for Devoted websites, including startup
 
 ## Guides
 
-- [Creating a Droplet for Staging Development]()
+- [Creating a Droplet for Staging Development](guides/create-dev-server.md)
 - _More to come..._
