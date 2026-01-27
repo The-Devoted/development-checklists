@@ -8,7 +8,13 @@
   meetings.
 - [ ] Begin communication with any necessary vendors or partners, such as
   hosting providers and third party tool collaborators.
-- [ ] Complete the Technical Discovery Rubric.  
+- [ ] Complete the Technical Discovery Rubric.
+
+## Existing Site Audit
+
+- [ ] Capture "before" screenshots of front & back end of site, where possible.
+- [ ] Run baseline performance and accessibility tests.
+- [ ] Identify what content can be migrated automatically, if any.
 
 ## Extra Credit
 
