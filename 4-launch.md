@@ -76,7 +76,7 @@
 - [ ] Confirm any development-related plugins or modules are removed or disabled.
 - [ ] Confirm that `robots.txt` or the corresponding HTTP header is configured
   to block traffic to any development or staging sites.
-- Ensure correct permissions are set on any site config files such as
+- [ ] Ensure correct permissions are set on any site config files such as
   `wp-config.php` for WordPress, or `settings.php` and `services.yml` for
   Drupal.
 
