@@ -10,6 +10,7 @@
 - [ ] Develop a caching strategy.
 - [ ] Identify and document the production domain.
 - [ ] Determine who manages DNS.
+- [ ] Verify the deployment process is working.
 - [ ] Take before screenshots of site.
 - [ ] Add site to [web.archive.org](http://web.archive.org/).
 - [ ] Identify the need for any monitoring tools (uptime, performance, etc).
@@ -35,15 +36,15 @@
   - [ ] Monitoring tools
 - [ ] Create a launch event on Google Calendar, add relevant team members.
 
-## General Prep
+## Content
 
 - [ ] Verify all content migrations are complete.
 - [ ] Disable any migration-related plugins, modules, or tools.
 - [ ] Run exports of site configs (and content where possible). Verify these
   exports run cleanly and correctly.
-- [ ] Verify the deployment process is working.
 - [ ] Verify the 404 page is working correctly, styled as expected, and has
   appropriate language/content for strategic rerouting.
+- [ ] Search for and replace any placeholder content, such as lorem ipsum or links to example.com
 
 ## Error Logging & Reporting
 
