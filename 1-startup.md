@@ -18,6 +18,7 @@ These tasks can be done before design begins. That will provide us a ready and b
 - [ ] Install necessary any plugins, modules, or extensions identified during
   discovery.
 - [ ] Add relevant team members as CMS editors.
+- [ ] Begin a content migration timeline.
 
 ## Using a Startup Kit
 
@@ -52,3 +53,7 @@ replace startup kit guides.
 - [ ] Port the relevant checklists from this repo into issues.
   - [ ] Create a Project_Name Launch Checklist issue for capturing specific preflight items for this project.
 - [ ] If needed, begin a separate wiki or markdown docs for the project.
+- [ ] Begin a "special cases" list for any unusual sections, methodologies, or
+  processes for the site: things that are unique to this project and can't be
+  found in CMS documentation. Capture these so they can be included later in
+  training.
