@@ -12,7 +12,7 @@
 - [ ] Determine who manages DNS.
 - [ ] Take before screenshots of site.
 - [ ] Add site to [web.archive.org](http://web.archive.org/).
-- [ ] Identify the need for any monitoring tools.
+- [ ] Identify the need for any monitoring tools (uptime, performance, etc).
 
 ## Communications
 
