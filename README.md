@@ -8,7 +8,7 @@ Checklists for common development phases for Devoted websites, including startup
 1. [Startup / Development Kickoff](1-startup.md)
 2. [Site Development](2-development.md)
 3. [QA, Migration, and Review](3-review.md)
-4. Preflight and Launch
+4. [Preflight and Launch](4-launch.md)
 5. Postlaunch
 
 ## Guides
