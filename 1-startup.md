@@ -4,6 +4,9 @@ These tasks can be done before design begins. That will provide us a ready and b
 
 - [ ] Create a repository for the project. See [Using a Startup
   Kit](#using-a-startup-kit) below.
+- [ ] Create a GitHub project board for the repo.
+- [ ] Create any necessary additional issue labels for the type of work being
+  done.
 - [ ] Grant repository access to relevant team members.
 - [ ] Create an environment for staging the site, if not provided by a hosting
   partner. [Follow the Droplet Setup Guide]() to create a Devoted-hosted
@@ -14,7 +17,7 @@ These tasks can be done before design begins. That will provide us a ready and b
   [Tugboat](https://www.tugboatqa.com/).
 - [ ] Install necessary any plugins, modules, or extensions identified during
   discovery.
-- [ ] Add relevant team members as CMS editors.  
+- [ ] Add relevant team members as CMS editors.
 
 ## Using a Startup Kit
 
@@ -33,3 +36,19 @@ replace startup kit guides.
   `wp-admin` for Wordpress.
 - [ ] Setup login security rules such as limiting repeated login attempts and
   password content constraints.
+
+## Documentation
+
+- [ ] Ensure the project has a readme file at the root.
+- [ ] Add the following details to the readme:
+  - [ ] A link to where the project is staged/development server.
+  - [ ] A link to the project board.
+  - [ ] A Development section with:
+    - [ ] A list of high-level relevant technologies.
+    - [ ] Instructions for how to contribute.
+    - [ ] Visually separate this information to make reviewing the repo easier
+      for clients and non-developers.
+- [ ] Create a user guide within the site/as a CMS node or page.
+- [ ] Port the relevant checklists from this repo into issues.
+  - [ ] Create a Project_Name Launch Checklist issue for capturing specific preflight items for this project.
+- [ ] If needed, begin a separate wiki or markdown docs for the project.
