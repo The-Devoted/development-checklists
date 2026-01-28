@@ -24,4 +24,10 @@ For each milestone, repeat the issue planning & estimate process.
 
 - [ ] Ensure fonts are `woff2` format.
 - [ ] Ensure images are minified before or during upload.
-- [ ] tktktk
+- [ ] Ensure next-gen efficient images (such as `webp` format) are being served
+  where possible.
+
+## Editor Experience
+
+- [ ] Optimize media/asset tools in the CMS for the project's needs. Extend with organization or taxonomy tools as needed.
+- [ ] Ensure the system provides a low-effort way for editors to add alt text to images.

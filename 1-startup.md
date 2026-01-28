@@ -8,6 +8,8 @@ These tasks can be done before design begins. That will provide us a ready and b
 - [ ] Create any necessary additional issue labels for the type of work being
   done.
 - [ ] Grant repository access to relevant team members.
+- [ ] Connect GitHub to the project's Slack channel. Keep notifications to a
+  minimum to reduce noise.
 - [ ] Create an environment for staging the site, if not provided by a hosting
   partner. [Follow the Droplet Setup Guide]() to create a Devoted-hosted
   development server.
@@ -39,6 +41,9 @@ replace startup kit guides.
   password content constraints.
 
 ## Documentation
+
+Create documentation tools at startup, so they can be easily added to
+concurrently with development.
 
 - [ ] Ensure the project has a readme file at the root.
 - [ ] Add the following details to the readme:
