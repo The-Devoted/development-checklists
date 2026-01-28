@@ -31,3 +31,13 @@ For each milestone, repeat the issue planning & estimate process.
 
 - [ ] Optimize media/asset tools in the CMS for the project's needs. Extend with organization or taxonomy tools as needed.
 - [ ] Ensure the system provides a low-effort way for editors to add alt text to images.
+
+## Compliance
+
+- [ ] GDPR / Cookie Statement
+  - [ ] Implement banner/notification front-end functionality and dessign
+  - [ ] Implement opt-out functionality
+- [ ] Privacy Policy
+- [ ] Accessibility Statement
+- [ ] Copyright information
+- [ ] Other legal or compliance needs specific to site?
