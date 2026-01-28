@@ -35,7 +35,14 @@ For most small projects or staging environments, choose the following settings:
 |Additional Options|Enable only if necessary.|
 |Hostname|Match the repo name if possible. Append `-dev` for development/staging servers or `-prod` for production. |
 
-**Backup Notes:** typically we leave automated backups off until content entry begins. Database backups are automatically created during the development process (db exports for local dev, Tugboat, etc). During this phase, frequent backups (typically daily) are a byproduct of the work being done, making automated backups somewhat redundant. Since automated backups incur a cost, we typically leave them off until necessary. Once content entry begins, we enable automated backups and leave them on until launch (or forever, if we are hosting the project).
+**Backup Notes:** typically we leave automated backups off until content entry
+begins. Database backups are automatically created during the development
+process (db exports for local dev, Tugboat, etc). During this phase, frequent
+backups (typically daily) are a byproduct of the work being done, making
+automated backups somewhat redundant. Since automated backups incur a cost, we
+typically leave them off until necessary. Once content entry begins, we enable
+automated backups and leave them on until launch (or forever, if we are hosting
+the project).
 
 [Droplet Features/Plan Details from DO Docs](https://docs.digitalocean.com/products/droplets/details/features/)
 
@@ -58,7 +65,8 @@ See also [Digital Ocean's Initial Setup Guide for Ubuntu](https://www.digitaloce
 
 ## Create Backup Directories
 
-In the home directory for the project user you just created, create the following directories:
+In the home directory for the project user you just created, create the
+following directories:
 
 `mkdir directory_name`
 
@@ -71,8 +79,12 @@ These directories will be accessed by 1) tools that setup the local dev environm
 
 ## Clone the Repo to the Droplet
 
-1. First verify an SSH key doesn't already exist. Look for files beginning with: `~/.ssh/id_` in the new user home directory you created earlier.
-1. If there's no public key (likely not for a new user), generate a new one: `ssh-keygen`. Follow the prompts and accept the default filename. This will be our *deploy key* that allows the server to pull from the repository. We'll create a different key for GitHub Actions later.
+1. First verify an SSH key doesn't already exist. Look for files beginning with:
+   `~/.ssh/id_` in the new user home directory you created earlier.
+1. If there's no public key (likely not for a new user), generate a new one:
+   `ssh-keygen`. Follow the prompts and accept the default filename. This will
+   be our *deploy key* that allows the server to pull from the repository. We'll
+   create a different key for GitHub Actions later.
 1. Copy the contents of the public key you just created `cat .ssh/id_whatever.pub`*
 
 > <i>*Key may begin with `id_rsa` or `id_ed25519`. See [ssh-keygen on Wikipedia](https://en.wikipedia.org/wiki/Ssh-keygen) for details.</i>
@@ -87,7 +99,9 @@ These directories will be accessed by 1) tools that setup the local dev environm
 
 ## Initial Start of Docker Environment on Droplet
 
-You'll likely need to add the newly-created user to the `docker` group before you can run `docker` commands. See [Manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user).
+You'll likely need to add the newly-created user to the `docker` group before
+you can run `docker` commands. See [Manage Docker as a non-root
+user](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user).
 
 This error indicates the user lacks permission to run Docker:
 
@@ -104,7 +118,11 @@ This error indicates the user lacks permission to run Docker:
 
 ## Setup Deployment Action
 
-We'll use SSH in a [GitHub Action](https://docs.github.com/en/actions) to connect to the Droplet and pull repo updates automatically. To do that, we must first create repository secrets that can be used by the action. One of those secrets is _another_ ssh key that allows the action to connect to the server. Using two keys will prevent further damage if one key is compromised.
+We'll use SSH in a [GitHub Action](https://docs.github.com/en/actions) to
+connect to the Droplet and pull repo updates automatically. To do that, we must
+first create repository secrets that can be used by the action. One of those
+secrets is _another_ ssh key that allows the action to connect to the server.
+Using two keys will prevent further damage if one key is compromised.
 
 ### Create the Action SSH Key
 
@@ -114,9 +132,11 @@ We'll follow mostly the same process as generating our deploy key above:
 1. When generating the key, prepend the default name with `_action`.
 1. Add the *public* part of the pair to authorized_keys: `cat .ssh/id_whatever_action.pub >> .ssh/authorized_keys`
 
-> *Important*: ensure you use the `>>` operator to cat to `authorized_keys`, which will append to the end of file and not overwrite.
+> *Important*: ensure you use the `>>` operator to cat to `authorized_keys`,
+> which will append to the end of file and not overwrite.
 
-4. Copy the *private* part of the pair `cat .ssh/id_whatever_action` and paste it into Repository Secrets (more details below).
+4. Copy the *private* part of the pair `cat .ssh/id_whatever_action` and paste
+   it into Repository Secrets (more details below).
 
 ### Add the Credentials to the Repository Secrets
 
@@ -142,14 +162,22 @@ The `devoted-wp-start` uses `DO_DROPLET_`</i>
 
 Next, configure the [action](https://docs.github.com/en/actions) that tells GitHub what to do.
 
-> The `devoted-wp-start` project should already have this file created, so you can likely skip this step if you've cloned that repo to start your project.
+> The `devoted-wp-start` project should already have this file created, so you
+> can likely skip this step if you've cloned that repo to start your project.
 
 1. Create a `.github/workflows` directory in your project if it does not already exist.
-2. Create a new YAML file in this directory with a name that describes what the action will do. For example, `deploy-dev.yml` to deploy to a development server.
-3. Configure your action to deploy on pushes to the `dev` branch, or whichever branch is appropriate for your task. See [GitHub Action Workflow Syntax](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax) for details on how to configure a GitHub Action.
-4. Use the [Appleboy SSH Action](https://github.com/appleboy/ssh-action) to connect to the Droplet.
+2. Create a new YAML file in this directory with a name that describes what the
+   action will do. For example, `deploy-dev.yml` to deploy to a development
+   server.
+3. Configure your action to deploy on pushes to the `dev` branch, or whichever
+   branch is appropriate for your task. See [GitHub Action Workflow
+   Syntax](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax)
+   for details on how to configure a GitHub Action.
+4. Use the [Appleboy SSH Action](https://github.com/appleboy/ssh-action) to
+   connect to the Droplet.
 5. Pass the Appleboy action the repository secrets you created above.
-6. Pass the Appleboy action a script to run once the ssh connection has been made. See the example below.
+6. Pass the Appleboy action a script to run once the ssh connection has been
+   made. See the example below.
 
 ```
 script: |
@@ -168,12 +196,18 @@ What the above example script for deployment does:
 
 ## Optional: Configure Port Availability & HTTPS
 
-To use a domain name, we must configure a reverse proxy for the port Docker is serving the site (for example, `:8000`), and ensure the site is being served over HTTPS. The [Caddy](https://caddyserver.com/) webserver easily automates HTTPS and a reverse proxy.
+To use a domain name, we must configure a reverse proxy for the port Docker is
+serving the site (for example, `:8000`), and ensure the site is being served
+over HTTPS. The [Caddy](https://caddyserver.com/) webserver easily automates
+HTTPS and a reverse proxy.
 
-⚠️ Important: if using WordPress, ensure the "site url" fields configured during set up match the domain configured in Caddy!
+⚠️ Important: if using WordPress, ensure the "site url" fields configured during
+set up match the domain configured in Caddy!
 
 1. Follow Caddy's [Ubuntu Installation Instructions](https://caddyserver.com/docs/install#debian-ubuntu-raspbian).
-2. Create a `Caddyfile` in the project directory using a text editor of your choice, ie `nano Caddyfile`. [Caddyfile Docs](https://caddyserver.com/docs/caddyfile-tutorial)
+2. Create a `Caddyfile` in the project directory using a text editor of your
+   choice, ie `nano Caddyfile`. [Caddyfile
+   Docs](https://caddyserver.com/docs/caddyfile-tutorial)
 3. In the `Caddyfile`, enter the following configuration:
 
 ```
@@ -184,13 +218,20 @@ example.com {
 
 <i>*Replace `example.com` with your domain and replace `:8000` with whatever port your Docker service is using.</i>
 
-4. Start the webserver in the background and verify it's working: `caddy start` or `sudo caddy start`
-5. If you make a change to the `Caddyfile` or change config via command line, don't forget to [reload the server](https://caddyserver.com/docs/command-line#caddy-reload) with `caddy reload`.
+4. Start the webserver in the background and verify it's working: `caddy start`
+   or `sudo caddy start`
+5. If you make a change to the `Caddyfile` or change config via command line,
+   don't forget to [reload the
+   server](https://caddyserver.com/docs/command-line#caddy-reload) with `caddy
+   reload`.
 
 [Full List of Caddy Commands](https://caddyserver.com/docs/command-line)
 
 ### HTTPS
 
-Caddy will automatically provision a TLS certificate and serve over HTTPS. See Caddy's [Automatic HTTPS Docs](https://caddyserver.com/docs/automatic-https) for details and caveats.
+Caddy will automatically provision a TLS certificate and serve over HTTPS. See
+Caddy's [Automatic HTTPS Docs](https://caddyserver.com/docs/automatic-https) for
+details and caveats.
 
-Additional configuration may be needed for Wildcard certificates for subdomains. [Example](https://caddyserver.com/docs/caddyfile/patterns#wildcard-certificates)
+Additional configuration may be needed for Wildcard certificates for subdomains.
+[Example](https://caddyserver.com/docs/caddyfile/patterns#wildcard-certificates)
