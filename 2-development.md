@@ -42,3 +42,9 @@ For each milestone, repeat the issue planning & estimate process.
 - [ ] Accessibility Statement
 - [ ] Copyright information
 - [ ] Other legal or compliance needs specific to site?
+
+## Accessibility
+
+- [ ] Ensure the site has a skip-nav link (WordPress Block Themes will insert one automatically if a `<main>` tag exists).
+- [ ] Ensure the site is navigible by keyboard.
+- [ ] _More_to_add_here_
