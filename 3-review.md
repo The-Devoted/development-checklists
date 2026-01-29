@@ -55,3 +55,4 @@
   - [ ] Alt text for images
   - [ ] Heading hierarchy
   - [ ] Writing descriptive link text
+- [ ] During training, identify any features or editing tools that should be disabled (for example, should we leave color pickers or dimension tools on in the WordPress block styles pane).
