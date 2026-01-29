@@ -51,3 +51,7 @@
   found in CMS documentation.
   - [ ] Ensure these things are documented clearly (provide videos where
     possible).
+- [ ] Ensure training covers accessibility best practices, such as:
+  - [ ] Alt text for images
+  - [ ] Heading hierarchy
+  - [ ] Writing descriptive link text
