@@ -1,4 +1,4 @@
-# QA, Migration, and Review
+# QA, Migration, Review, and Training
 
 ## Migration
 
@@ -53,6 +53,9 @@
     possible).
 - [ ] Ensure training covers accessibility best practices, such as:
   - [ ] Alt text for images
-  - [ ] Heading hierarchy
+  - [ ] Heading hierarchy + single H1s
   - [ ] Writing descriptive link text
+- [ ] Ensure training covers web concepts used by editing tools, for example:
+  - [ ] REM units for tools that allow dimension changes
+  - [ ] _more_to_come_
 - [ ] During training, identify any features or editing tools that should be disabled (for example, should we leave color pickers or dimension tools on in the WordPress block styles pane).
