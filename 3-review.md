@@ -51,10 +51,11 @@
   found in CMS documentation.
   - [ ] Ensure these things are documented clearly (provide videos where
     possible).
-- [ ] Ensure training covers accessibility best practices, such as:
+- [ ] Ensure training covers accessibility requirements and best practices, such as:
   - [ ] Alt text for images
   - [ ] Heading hierarchy + single H1s
   - [ ] Writing descriptive link text
+  - [ ] Disabling autoplay for videos
 - [ ] Ensure training covers web concepts used by editing tools, for example:
   - [ ] REM units for tools that allow dimension changes
   - [ ] _more_to_come_
