@@ -46,12 +46,13 @@
 - [ ] Schedule training sessions with relevant team members.
 - [ ] Ensure User Guide is up to date, complete, and ready to share.
 - [ ] Ensure custom fields have useful descriptive/help text.
+- [ ] Review the project's docs or wiki for a list of training topics.
 - [ ] Review the "special cases" list of any unusual sections, methodologies, or
   processes for the site: things that are unique to this project and can't be
   found in CMS documentation.
   - [ ] Ensure these things are documented clearly (provide videos where
     possible).
-- [ ] Ensure training covers accessibility requirements and best practices, such as:
+- [ ] Ensure training covers accessibility requirements and best practices in _content_, such as:
   - [ ] Alt text for images
   - [ ] Heading hierarchy + single H1s
   - [ ] Writing descriptive link text
