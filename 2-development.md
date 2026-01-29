@@ -32,6 +32,7 @@ For each milestone, repeat the issue planning & estimate process.
 - [ ] Optimize media/asset tools in the CMS for the project's needs. Extend with organization or taxonomy tools as needed.
 - [ ] Ensure the system provides a low-effort way for editors to add alt text to images.
 - [ ] Ensure admin area is tidy, easy to navigate, and free of plugin/third party clutter.
+- [ ] Identify and disable any tools that will overcomplicate the editing process, or have design-breaking potential for this client team.
 
 ## Compliance
 
