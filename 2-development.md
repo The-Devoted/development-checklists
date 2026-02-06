@@ -17,6 +17,9 @@ startup, we plan our initial releases and set a launch date.
 - [ ] Where possible, create additional milestones leading up to launch, working backward from the launch date.
 - [ ] Review the content migration timeline and create issues for migration
   events where possible.
+- [ ] Check the CMS-specific checklists for any tasks and create issues for them
+  where necessary:
+  - [WordPress](cms/wordpress.md)
 
 For each milestone, repeat the issue planning & estimate process.
 
