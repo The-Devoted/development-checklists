@@ -13,7 +13,7 @@ Checklists and guides for common development phases for Devoted websites, includ
 
 ## CMS-Specific Checklists
 
-- [Wordpress](cms/wordpress.md)
+- [WordPress](cms/wordpress.md)
 - _More to come..._
 
 ## Guides
