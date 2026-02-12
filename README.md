@@ -1,6 +1,6 @@
 # The Devoted Development Checklists & Guides
 
-Checklists for common development phases for Devoted websites, including startup, build, QA, and launch.
+Checklists and guides for common development phases for Devoted websites, including startup, build, QA, and launch.
 
 ## Phases
 
