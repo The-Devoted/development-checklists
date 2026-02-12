@@ -11,6 +11,11 @@ Checklists and guides for common development phases for Devoted websites, includ
 4. [Preflight and Launch](4-launch.md)
 5. [Postlaunch](5-postlaunch.md)
 
+## CMS-Specific Checklists
+
+- [Wordpress](cms/wordpress.md)
+- _More to come..._
+
 ## Guides
 
 - [Creating a Droplet for Staging Development](guides/create-dev-server.md)
