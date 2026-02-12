@@ -57,11 +57,12 @@ See also [Digital Ocean's Initial Setup Guide for Ubuntu](https://www.digitaloce
 
 1. Open the DO console for the droplet or ssh from your machine.
 2. Create a user for the project: `adduser projectuser`
-3. Grant admin privileges to the project user: `usermod -aG sudo projectuser`
-4. Enable SSH for the project user (copy the config from root): `rsync --archive --chown=projectuser:projectuser ~/.ssh /home/projectuser`
-5. Exit the root SSH session and open a new one using the project user you just created.
-6. Verify if Docker is installed: `which docker`
-7. Install Docker if it is not installed: [DO Guide to Install Docker on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
+3. Generate a password for the user and save it to a password manager. Typically I add `sudo` to the password save to filter for it quickly later.
+4. Grant admin privileges to the project user: `usermod -aG sudo projectuser`
+5. Enable SSH for the project user (copy the config from root): `rsync --archive --chown=projectuser:projectuser ~/.ssh /home/projectuser`
+6. Exit the root SSH session and open a new one using the project user you just created.
+7. Verify if Docker is installed: `which docker`
+8. Install Docker if it is not installed: [DO Guide to Install Docker on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
 
 ## Create Backup Directories
 
