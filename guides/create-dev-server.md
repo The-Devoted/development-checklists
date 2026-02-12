@@ -64,6 +64,14 @@ See also [Digital Ocean's Initial Setup Guide for Ubuntu](https://www.digitaloce
 7. Verify if Docker is installed: `which docker`
 8. Install Docker if it is not installed: [DO Guide to Install Docker on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
 
+## Optional: Setup Subdomain
+
+If you want to access your project at `projectname.the-devoted.dev` you'll need to configure a subdomain within the DNS settings for `the-devoted.dev`. In the `Advanced DNS` settings for the domain, add a new record under `Host Records`:
+
+| Type | Host | Value | TTL |
+|---|---|---|---|
+| A Record | your-desired-subdomain | IP of your Droplet | Automatic |
+
 ## Create Backup Directories
 
 In the home directory for the project user you just created, create the
