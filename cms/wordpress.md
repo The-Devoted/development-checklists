@@ -10,3 +10,11 @@
   design.
 
 _More to come..._
+
+## Training Topics
+
+### Accessibility
+
+#### Use Outline View to find Heading Level errors
+
+<img width="1255" height="1102" alt="Screenshot 2026-02-12 at 5 29 58 PM" src="https://github.com/user-attachments/assets/e23429fe-8b20-4dd5-8718-180a34546796" />
