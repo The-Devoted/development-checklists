@@ -52,3 +52,26 @@ For each milestone, repeat the issue planning & estimate process.
 - [ ] Ensure the site has a skip-nav link (WordPress Block Themes will insert one automatically if a `<main>` tag exists).
 - [ ] Ensure the site is navigible by keyboard.
 - [ ] _More_to_add_here_
+
+## Documentation
+
+- [ ] If you have not already, create a user guide within the site/as a CMS node or page. 
+
+### Settings / Values to Demonstrate in User Guide
+
+- [ ] Color Palette, for each swatch:
+  - [ ] Color Name
+  - [ ] Slug or Variable Name
+  - [ ] Hex Code
+  - [ ] Usage or Purpose
+- [ ] Typography
+  - [ ] Fonts, for each typeface:
+    - [ ] Font Name
+    - [ ] Example Specimens
+    - [ ] Usage Guidelines
+  - [ ] Font Sizes
+  - [ ] Line Heights
+- [ ] Borders, Border Radii, and Shadows
+- [ ] Any other base default values defined in the design system
+- [ ] All editor-available HTML elements (links, tables, etc)
+- [ ] All custom components/blocks/patterns/etc.
