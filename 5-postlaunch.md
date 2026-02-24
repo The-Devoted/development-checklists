@@ -3,6 +3,10 @@
 - [ ] Create a Postlaunch Support plan and accompanying GitHub milestone, if needed.
 - [ ] Identify bugs or issues to be completed in Postlaunch Support.
 
+## SEO
+
+- [ ] Ensure new site is submitted via Google Search Console.
+
 ## Connection Updates
 
 - [ ] Ensure development environment is updated to pull database from production.
