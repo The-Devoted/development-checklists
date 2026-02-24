@@ -62,6 +62,8 @@
 
 - [ ] Configure Google Analytics or other analytics tool.
 - [ ] Configure Google Tag Manager if applicable.
+- [ ] Configure Google Search Console if applicable.
+  - [ ] Make a todo list item to submit the new site immediately upon launch.
 - [ ] Verify reporting of analytics tools: either only from the production
   environment, or separately if tracking dev environments.
 - [ ] Ensure meta tags are filled out.
