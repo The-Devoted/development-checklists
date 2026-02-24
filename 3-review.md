@@ -19,6 +19,7 @@
   - [ ] Search results
   - [ ] 404 page
   - [ ] Directions for triggering any hidden content (sliders, drawers, etc).
+- [ ] Preview how the site looks when linked within social networks. Preview with [metatags.io](https://metatags.io/) or similar tool.
 - [ ] Run performance tests and identify any issues that can be resolved or
   improved.
 - [ ] Run accessibility tests and identify any issues to be resolved.
