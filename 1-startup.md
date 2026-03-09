@@ -39,6 +39,7 @@ replace startup kit guides.
   `wp-admin` for Wordpress.
 - [ ] Setup login security rules such as limiting repeated login attempts and
   password content constraints.
+- [ ] When creating admin accounts, set usernames to individuals rather than generic, easily-guessed terms like `admin`.
 
 ## Documentation
 
