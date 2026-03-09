@@ -82,6 +82,8 @@
 - [ ] Ensure correct permissions are set on any site config files such as
   `wp-config.php` for WordPress, or `settings.php` and `services.yml` for
   Drupal.
+- [ ] If a generic `admin` account exists, create less obvious alternatives (use people's names).
+  - [ ] Set the existing `admin` account's privileges to 0.
 
 ## Performance
 
