@@ -30,8 +30,15 @@ Start](https://github.com/The-Devoted/devoted-wp-start).
 Additional kits may be added as needed for more platforms in the future.
 
 When using a startup kit, **follow the kit's wiki or readme** for specific
-startup tasks. Tasks listed above are intentionally broad and not meant to
+startup tasks. Tasks listed here are intentionally broad and not meant to
 replace startup kit guides.
+
+For any startup kit, remember to:
+
+- [ ] Replace boilerplate text and values with ones relevant to your project:
+  - [ ] `README.md` and other documentation files.
+  - [ ] Package manager definitions i.e. `composer.json`.
+  - [ ] Theme definition files.
 
 ## Security
 
