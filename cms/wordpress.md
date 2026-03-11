@@ -8,6 +8,7 @@
   Settings](https://developer.wordpress.org/block-editor/reference-guides/theme-json-reference/theme-json-living/#settings).
   Enable or disable based on the project's editor's abilities and the selected
   design.
+- [ ] Ensure nav items have ARIA labels. WordPress may not update the label if the nav is cloned from another nav. See [this FSE article for details](https://fullsiteediting.com/lessons/accessibility-in-full-site-editing-themes/#h-aria-landmark-roles)
 
 _More to come..._
 
