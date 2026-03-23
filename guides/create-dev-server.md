@@ -125,6 +125,9 @@ This error indicates the user lacks permission to run Docker:
 1. Verify the project is visible at the port Docker is serving the site (likely `:8000`).
 1. For WordPress, follow the setup/install process _or_ import an existing database (via `docker exec` or phpMyAdmin).
 
+> [!WARNING]
+> If you plan to create a subdomain for your project, ie `project.the-devoted.dev` **do not init a WordPress database** without setting up the subdomain and webserver first! See the section on [Caddy / HTTPS / Port Availability](#configure-port-availability-and-https) first. This will ensure your DB is created with the correct site URLs.
+
 ## Setup Deployment Action
 
 We'll use SSH in a [GitHub Action](https://docs.github.com/en/actions) to
@@ -203,7 +206,7 @@ What the above example script for deployment does:
 2. Checkout the branch you want to deploy and pull it.
 3. Stop and restart Docker.
 
-## Optional: Configure Port Availability & HTTPS
+## Configure Port Availability and HTTPS
 
 To use a domain name, we must configure a reverse proxy for the port Docker is
 serving the site (for example, `:8000`), and ensure the site is being served
