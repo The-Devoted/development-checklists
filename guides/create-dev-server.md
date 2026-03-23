@@ -141,8 +141,8 @@ We'll follow mostly the same process as generating our deploy key above:
 1. When generating the key, prepend the default name with `_action`.
 1. Add the *public* part of the pair to authorized_keys: `cat .ssh/id_whatever_action.pub >> .ssh/authorized_keys`
 
-> *Important*: ensure you use the `>>` operator to cat to `authorized_keys`,
-> which will append to the end of file and not overwrite.
+> [!IMPORTANT]
+> Ensure you use the `>>` operator to cat to `authorized_keys`, which will append to the end of file and not overwrite.
 
 4. Copy the *private* part of the pair `cat .ssh/id_whatever_action` and paste
    it into Repository Secrets (more details below).
