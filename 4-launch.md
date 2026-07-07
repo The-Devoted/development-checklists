@@ -68,6 +68,11 @@
   environment, or separately if tracking dev environments.
 - [ ] Ensure meta tags are filled out.
 - [ ] Configure 301 redirects.
+  - [ ] Use Regex matching to ensure no partial matches occur.
+    - For example, Source: `^/news/?$` → Target `https://www.example.com/news/`.
+  - [ ] Ensure target URLs have trailing slashes.
+    - For example, use `.../news/` and **not** `.../news`.
+  - [ ] After 301s are added, verify none of the redirected URLs 404.
 - [ ] Disable any tools/settings that discourage search engine crawls enabled while the site was in development.
   - In WordPress, find this toggle in Settings > Reading > Search Engine Visibility
 
