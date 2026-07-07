@@ -68,6 +68,8 @@
   environment, or separately if tracking dev environments.
 - [ ] Ensure meta tags are filled out.
 - [ ] Configure 301 redirects.
+- [ ] Disable any tools/settings that discourage search engine crawls enabled while the site was in development.
+  - In WordPress, find this toggle in Settings > Reading > Search Engine Visibility
 
 ## Security
 
