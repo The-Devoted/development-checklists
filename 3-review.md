@@ -8,6 +8,7 @@
 - [ ] Review auto-migrated content for errors.
 - [ ] Migrate manual content, leveraging for training where possible.
 - [ ] Set a date for content freeze, if needed.
+- [ ] After content imports, run a 404 and broken image check.
 
 ## Internal QA Capture
 
