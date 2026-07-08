@@ -99,6 +99,7 @@
 - [ ] Ensure CDN is setup and verified to be working, if applicable.
 - [ ] Ensure load balancer is setup and verified to be working, if applicable.
 - [ ] Verify caching tools are working.
+- [ ] Setup Cloudflare, if not included in hosting.
 
 ## Hosting
 
