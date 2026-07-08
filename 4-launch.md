@@ -45,6 +45,7 @@
 - [ ] Verify the 404 page is working correctly, styled as expected, and has
   appropriate language/content for strategic rerouting.
 - [ ] Search for and replace any placeholder content, such as lorem ipsum or links to example.com
+- [ ] Run a 404 and broken image check.
 
 ## Error Logging & Reporting
 
