@@ -51,6 +51,7 @@ For each milestone, repeat the issue planning & estimate process.
 
 - [ ] Ensure the site has a skip-nav link (WordPress Block Themes will insert one automatically if a `<main>` tag exists).
 - [ ] Ensure the site is navigible by keyboard.
+- [ ] Enable `prefers-reduced-motion` and verify all motion effects are disabled.
 - [ ] _More_to_add_here_
 
 ## Documentation
