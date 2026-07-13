@@ -9,6 +9,10 @@
 - [ ] Begin communication with any necessary vendors or partners, such as
   hosting providers and third party tool collaborators.
 - [ ] Complete the Technical Discovery Rubric.
+- [ ] Review the following resources to identify items that need to be recorded in GitHub as tasks:
+  - [ ] Technical Discovery Rubric
+  - [ ] Meeting notes
+  - [ ] Client communication platform if applicable (Basecamp, Asana, etc).
 
 ## Existing Site Audit
 
