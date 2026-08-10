@@ -10,7 +10,41 @@
 - [ ] Set a date for content freeze, if needed.
 - [ ] After content imports, run a 404 and broken image check.
 
-## Internal QA Capture
+-------
+
+## QA
+
+### Performance
+
+- [ ] Run performance tests and identify any issues that can be resolved or improved.
+- [ ] Ensure fonts are `woff2` format.
+- [ ] Ensure images are minified before or during upload.
+- [ ] Ensure next-gen efficient images (such as `webp` format) are being served where possible.
+
+### Compliance
+
+- [ ] GDPR / Cookie Statement
+  - [ ] Implement banner/notification front-end functionality and dessign
+  - [ ] Implement opt-out functionality
+- [ ] Privacy Policy
+- [ ] Accessibility Statement
+- [ ] Copyright information
+- [ ] Other legal or compliance needs specific to site?
+
+### Accessibility
+
+- [ ] Run accessibility tests and identify any issues to be resolved.
+- [ ] Ensure the site has a skip-nav link (WordPress Block Themes will insert one automatically if a `<main>` tag exists).
+- [ ] Ensure the site is navigible by keyboard.
+- [ ] Enable `prefers-reduced-motion` and verify all motion effects are disabled.
+- [ ] _More_to_add_here_
+
+### SEO
+
+- [ ] Preview how the site looks when linked within social networks. Preview with [metatags.io](https://metatags.io/) or similar tool.
+- [ ] _More_to_add_here_
+
+### Internal QA Capture
 
 - [ ] Ensure relevant internal team members have GitHub access and can submit
   issues.
@@ -20,20 +54,16 @@
   - [ ] Search results
   - [ ] 404 page
   - [ ] Directions for triggering any hidden content (sliders, drawers, etc).
-- [ ] Preview how the site looks when linked within social networks. Preview with [metatags.io](https://metatags.io/) or similar tool.
-- [ ] Run performance tests and identify any issues that can be resolved or
-  improved.
-- [ ] Run accessibility tests and identify any issues to be resolved.
 - [ ] Set an end date for internal QA.
 
-## Full Team / Client QA Capture
+### Full Team / Client QA Capture
 
 - [ ] Ensure all relevant team members on client side have GitHub access and
   understand how to submit issues.
 - [ ] Provide QA instructions if needed (provide a video where possible).
 - [ ] Set an end date for client QA review.
 
-## Issue Mitigation
+### Issue Mitigation
 
 - [ ] Triage issues from internal & client QA
 - [ ] Identify any issues that are launch blockers.
@@ -41,6 +71,8 @@
 - [ ] Determine if the launch date is still feasible given the results of QA.
 - [ ] Validate that all parties are clear on what will and will not be going
   live at launch.
+
+-------
 
 ## Training
 
@@ -63,3 +95,10 @@
   - [ ] REM units for tools that allow dimension changes
   - [ ] _more_to_come_
 - [ ] During training, identify any features or editing tools that should be disabled (for example, should we leave color pickers or dimension tools on in the WordPress block styles pane).
+
+### Editor Experience
+
+- [ ] Optimize media/asset tools in the CMS for the project's needs. Extend with organization or taxonomy tools as needed.
+- [ ] Ensure the system provides a low-effort way for editors to add alt text to images.
+- [ ] Ensure admin area is tidy, easy to navigate, and free of plugin/third party clutter.
+- [ ] Identify and disable any tools that will overcomplicate the editing process, or have design-breaking potential for this client team.
