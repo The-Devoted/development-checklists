@@ -163,7 +163,7 @@ Open your repository's secrets settings by going to:
 | Host | `DO_DROPLET_HOST` | Domain or IP Address of the Droplet |
 | Port | `DO_DROPLET_PORT` | Port on the Droplet to connect to via SSH, typically `22` |
 | Username | `DO_DROPLET_USERNAME` | Username you created above |
-| Key | `DO_DROPLET_SSH_KEY` | *Private* key you created above ending in `_actions` |
+| Key | `DO_DROPLET_SSH_KEY` | *Private* key you created above in `/deployment-action` |
 
 ### Create the Action
 
