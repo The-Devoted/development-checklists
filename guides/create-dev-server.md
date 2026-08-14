@@ -142,7 +142,7 @@ We'll follow mostly the same process as generating our deploy key above:
 
 1. On the server, in the `.ssh/` directory, create a new folder `deployment-action`.
 2. In the `deployment-action` folder, run `ssh-keygen`.
-1. Add the *public* part of the pair to authorized_keys: `cat .ssh/id_whatever_action.pub >> .ssh/authorized_keys`
+1. Add the *public* part of the pair to authorized_keys: `cat .ssh/deployment-action/your_new_key_name.pub >> .ssh/authorized_keys`
 
 > [!IMPORTANT]
 > Ensure you use the `>>` operator to cat to `authorized_keys`, which will append to the end of file and not overwrite.
