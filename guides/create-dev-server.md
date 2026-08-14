@@ -140,8 +140,8 @@ Using two keys will prevent further damage if one key is compromised.
 
 We'll follow mostly the same process as generating our deploy key above:
 
-1. On the server, run `ssh-keygen`.
-1. When generating the key, prepend the default name with `_action`.
+1. On the server, in the `.ssh/` directory, create a new folder `deployment-action`.
+2. In the `deployment-action` folder, run `ssh-keygen`.
 1. Add the *public* part of the pair to authorized_keys: `cat .ssh/id_whatever_action.pub >> .ssh/authorized_keys`
 
 > [!IMPORTANT]
