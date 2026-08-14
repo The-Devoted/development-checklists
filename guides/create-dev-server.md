@@ -158,17 +158,12 @@ Open your repository's secrets settings by going to:
 
 ...and create the following secrets:
 
-| Secret | Name Suggestion* | Value |
+| Secret | Name Suggestion | Value |
 |---|---|---|
-| Host | `DO_DEV_HOST` | Domain or IP Address of the Droplet |
-| Port | `DO_DEV_PORT` | Port on the Droplet to connect to via SSH, typically `22` |
-| Username | `DO_DEV_USERNAME` | Username you created above |
-| Key | `DO_DEV_SSH_KEY` | *Private* key you created above ending in `_actions` |
-
-> <i>*Secret Names:<br />
-Name suggestions shown in example for a development server, ie "<u>D</u>igital <u>O</u>cean Dev ______".<br />
-If cloning a starter project, check for an existing deployment action with existing names.<br />
-The `devoted-wp-start` uses `DO_DROPLET_`</i>
+| Host | `DO_DROPLET_HOST` | Domain or IP Address of the Droplet |
+| Port | `DO_DROPLET_PORT` | Port on the Droplet to connect to via SSH, typically `22` |
+| Username | `DO_DROPLET_USERNAME` | Username you created above |
+| Key | `DO_DROPLET_SSH_KEY` | *Private* key you created above ending in `_actions` |
 
 ### Create the Action
 
