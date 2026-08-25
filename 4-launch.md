@@ -38,6 +38,7 @@
 
 ## Content
 
+- [ ] Ensure the site has a favicon configured.
 - [ ] Verify all content migrations are complete.
 - [ ] Disable any migration-related plugins, modules, or tools.
 - [ ] Run exports of site configs (and content where possible). Verify these
