@@ -16,7 +16,8 @@
 
 ### Performance
 
-- [ ] Run performance tests and identify any issues that can be resolved or improved.
+- [ ] Re-run performance tests and identify any issues that can be resolved or improved.
+  - [ ] Create an issue to track these if needed.
 - [ ] Ensure fonts are `woff2` format.
 - [ ] Ensure images are minified before or during upload.
 - [ ] Ensure next-gen efficient images (such as `webp` format) are being served where possible.
