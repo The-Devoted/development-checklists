@@ -1,4 +1,4 @@
-# Startup / Development Kickoff
+# 🎉 Startup / Development Kickoff
 
 These tasks can be done before design begins. That will provide us a ready and blank site for styling and customization as soon as design is approved.
 
