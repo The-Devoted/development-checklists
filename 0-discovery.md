@@ -1,4 +1,4 @@
-# Technical Discovery and Research
+# 🔎 Technical Discovery and Research
 
 - [ ] Begin a Technical Discovery Rubric for the project by creating a new
   Google Spreadsheet from the existing template, "Technical Discovery Rubric". The rubric will contain many tasks beyond what is documented here, and will serve as a technical reference for the project.
