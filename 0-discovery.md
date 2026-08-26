@@ -1,13 +1,10 @@
 # 🔎 Technical Discovery and Research
 
-- [ ] Begin a Technical Discovery Rubric for the project by creating a new
-  Google Spreadsheet from the existing template, "Technical Discovery Rubric". The rubric will contain many tasks beyond what is documented here, and will serve as a technical reference for the project.
+- [ ] Begin a Technical Discovery Rubric for the project by creating a new Google Spreadsheet from the existing template, "Technical Discovery Rubric". The rubric will contain many tasks beyond what is documented here, and will serve as a technical reference for the project.
 - [ ] Get access to the existing site's admin area, if possible.
-- [ ] Get access to any existing analytics data.
-- [ ] Schedule a technical discovery workshop or call, if needed beyond typical
-  meetings.
-- [ ] Begin communication with any necessary vendors or partners, such as
-  hosting providers and third party tool collaborators.
+- [ ] Get access to any existing analytics data. Best to do this ASAP, as we'll need it to prevent data disruptions at launch.
+- [ ] Schedule a technical discovery workshop or call, if needed beyond typical meetings.
+- [ ] Begin communication with any necessary vendors or partners, such as hosting providers and third party tool collaborators.
 - [ ] Complete the Technical Discovery Rubric.
 - [ ] Review the following resources to identify items that need to be recorded in GitHub as tasks:
   - [ ] Technical Discovery Rubric
@@ -22,8 +19,7 @@
 
 ## Extra Credit
 
-These items _could_ be completed during discovery, or can be deferred to the
-startup phase depending on the project's needs.
+These items _could_ be completed during discovery, or can be deferred to the startup phase depending on the project's needs.
 
 - [ ] Create a repository for the project (clone a starter kit where possible).
 - [ ] Grant repository access to relevant team members.
