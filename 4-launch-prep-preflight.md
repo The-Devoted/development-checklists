@@ -58,6 +58,7 @@
   - [ ] TKTKTK
   - [ ] "Optional Superhead"
   - [ ] Links to # or example.com
+  - [ ] Buttons with empty link hrefs (spot them by tabbing, buttons with no links will not focus).
 - [ ] Run a 404 and broken image check.
   - [ ] Note we'll likely need to run another after the production domain is actively pointing to the new site. Ensure this is captured in a todo.
 - [ ] Preview how the site looks when linked within social networks. Preview with metatags.io or similar tool.
