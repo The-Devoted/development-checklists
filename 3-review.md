@@ -2,8 +2,7 @@
 
 ## Migration
 
-- [ ] Ensure team member who will participate in migration have appropriate
-  access to the CMS.
+- [ ] Ensure team member who will participate in migration have appropriate access to the CMS.
 - [ ] Import any "automatic" exported migrated content.
 - [ ] Review auto-migrated content for errors.
 - [ ] Migrate manual content, leveraging for training where possible.
@@ -47,10 +46,8 @@
 
 ### Internal QA Capture
 
-- [ ] Ensure relevant internal team members have GitHub access and can submit
-  issues.
-- [ ] Share a list of QA links with team, to ensure QA covers all necessary site
-  areas, sections, templates, or obscure hidden corners. Include things such as:
+- [ ] Ensure relevant internal team members have GitHub access and can submit issues.
+- [ ] Share a list of QA links with team, to ensure QA covers all necessary site areas, sections, templates, or obscure hidden corners. Include things such as:
   - [ ] Archive pages
   - [ ] Search results
   - [ ] 404 page
@@ -59,8 +56,7 @@
 
 ### Full Team / Client QA Capture
 
-- [ ] Ensure all relevant team members on client side have GitHub access and
-  understand how to submit issues.
+- [ ] Ensure all relevant team members on client side have GitHub access and understand how to submit issues.
 - [ ] Provide QA instructions if needed (provide a video where possible).
 - [ ] Set an end date for client QA review.
 
@@ -70,8 +66,7 @@
 - [ ] Identify any issues that are launch blockers.
 - [ ] Identify any issues that will be addressed postlaunch.
 - [ ] Determine if the launch date is still feasible given the results of QA.
-- [ ] Validate that all parties are clear on what will and will not be going
-  live at launch.
+- [ ] Validate that all parties are clear on what will and will not be going live at launch.
 
 -------
 
@@ -82,11 +77,8 @@
 - [ ] Ensure User Guide is up to date, complete, and ready to share.
 - [ ] Ensure custom fields have useful descriptive/help text.
 - [ ] Review the project's docs or wiki for a list of training topics.
-- [ ] Review the "special cases" list of any unusual sections, methodologies, or
-  processes for the site: things that are unique to this project and can't be
-  found in CMS documentation.
-  - [ ] Ensure these things are documented clearly (provide videos where
-    possible).
+- [ ] Review the "special cases" list of any unusual sections, methodologies, or processes for the site: things that are unique to this project and can't be found in CMS documentation.
+  - [ ] Ensure these things are documented clearly (provide videos where possible).
 - [ ] Ensure training covers accessibility requirements and best practices in _content_, such as:
   - [ ] Alt text for images
   - [ ] Heading hierarchy + single H1s
