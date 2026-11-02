@@ -32,8 +32,8 @@ For each milestone, repeat the issue planning & estimate process.
 - [ ] Color Palette, for each swatch:
   - [ ] Color Name
   - [ ] Slug or Variable Name
-  - [ ] Hex Code
-  - [ ] Usage or Purpose
+  - [ ] Hex Code, where space allows
+  - [ ] Usage or Purpose, where necessary
 - [ ] Typography
   - [ ] Fonts, for each typeface:
     - [ ] Font Name
@@ -44,4 +44,4 @@ For each milestone, repeat the issue planning & estimate process.
 - [ ] Borders, Border Radii, and Shadows
 - [ ] Any other base default values defined in the design system
 - [ ] All editor-available HTML elements (links, tables, etc)
-- [ ] All custom components/blocks/patterns/etc.
+- [ ] A place to demonstrate all custom components/blocks/patterns/etc.
